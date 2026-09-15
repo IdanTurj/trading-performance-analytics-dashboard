@@ -2,6 +2,12 @@
 
 An interactive Data Analytics project for exploring trading-simulation results, comparing strategy configurations, and evaluating performance and risk indicators.
 
+## Dashboard preview
+
+![Dashboard overview](assets/dashboard-overview.png)
+
+*Overview of the portfolio dashboard showing KPI cards, performance trends, win-rate analysis, risk vs. outcome, and top simulation configurations.*
+
 ## Project story
 
 I originally built this project as a tool for monitoring and reviewing trading-simulation outputs. I later redesigned it as a self-contained analytics dashboard focused on the analytical side of the work: preparing data, defining KPIs, comparing strategy parameters, and communicating results through interactive visualizations.
@@ -71,7 +77,8 @@ The original working version also interacted with PostgreSQL and SQLite. The pub
 │   ├── BTCUSDT_simulation_results.csv
 │   └── README.md
 └── assets/
-    └── README.md
+    ├── README.md
+    └── dashboard-overview.png
 ```
 
 ## Run locally
@@ -109,4 +116,4 @@ The application derives additional fields such as `totalTrades`, `winRate`, and 
 
 ## Portfolio presentation
 
-A dashboard screenshot can be stored under `assets/` and displayed near the top of this README. This lets reviewers understand the project quickly even if they do not run the application locally.
+This repository is structured as a recruiter-friendly portfolio project. The dashboard preview at the top provides a quick visual overview, while the source code and sample data make the analysis reproducible.
